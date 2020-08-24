@@ -26,6 +26,7 @@
         "dependencies": {
           "BlazorLearningToDo.Client": "1.0.0",
           "BlazorLearningToDo.Shared": "1.0.0",
+          "Blazored.SessionStorage": "1.0.12",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "3.2.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -287,6 +288,21 @@
         },
         "compile": {
           "BlazorLearningToDo.Server.dll": {}
+        }
+      },
+      "Blazored.SessionStorage/1.0.12": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.SessionStorage.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.12.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.SessionStorage.dll": {}
         }
       },
       "Microsoft.AspNet.SignalR.Client/2.4.1": {
@@ -2363,6 +2379,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.SessionStorage/1.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-46Ecq7Ek5vjCHjuf9Yia6bIcsgF3gQUYzTvCshoXUj1E3Xg2VD+42PAtWwYEf8yedFZUNdTlaFazjwc5zPHEGw==",
+      "path": "blazored.sessionstorage/1.0.12",
+      "hashPath": "blazored.sessionstorage.1.0.12.nupkg.sha512"
     },
     "Microsoft.AspNet.SignalR.Client/2.4.1": {
       "type": "package",

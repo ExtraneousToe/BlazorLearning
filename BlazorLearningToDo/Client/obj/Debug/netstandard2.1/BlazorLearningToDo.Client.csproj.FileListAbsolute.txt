@@ -428,6 +428,6 @@ C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Channels.dll.br
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\PDmpahmqjy4tWzW0w_eIDEgdShv6QmDhef3kvAlSJIY=.hash
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\v7w2ko0abNB7CH5RHWjciF6ze5W1o7CRkorzOo19XW4=.hash
-C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\zVs8wLlN3CoA2fe7bGxnpTgzkS8uPzynOgQnS9Rsjf8=.hash
-C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\u2wDXvYDCihYauyPNqSTVTtyMxfGqQOh_h3q9Tx2U3M=.hash
-C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\5jt81CTysFnfS-8oxHEl_TagjZgDkssB-nU_w8rETNk=.hash
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\SAWJoTY2uf_t-UDxOCxsfkcBXYdjUammPJs75U1vqfY=.hash
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\8ClU1bakJJSQnk2N17KMWZ86risV8Y8mZtp676dxZFQ=.hash
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Client\obj\Debug\netstandard2.1\integrity\G_HSHteUBue-SvseUt_hFY6EzI8c3jLr3RZlcbFpo3A=.hash

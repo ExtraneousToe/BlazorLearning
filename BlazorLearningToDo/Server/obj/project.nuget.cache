@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/G+RuIqJEeRgtSL5S/tqaqlOdAKs7yoHqKI/Yr4QOuwml0wGmziTu1ePfypWKy0cfUhIXOfxVV892gsRVK6vDA==",
+  "dgSpecHash": "vovzNFxVjL6e+ZMwWiAaBUxeNSM8N+hKy04C8O5DkqcaJAJbC2/lxh5ovdm7WllZ1bzWZ7LBY7Zj+B/SMql9HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Server\\BlazorLearningToDo.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\The Void Box\\.nuget\\packages\\blazored.sessionstorage\\1.0.12\\blazored.sessionstorage.1.0.12.nupkg.sha512",
     "C:\\Users\\The Void Box\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.1\\microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "C:\\Users\\The Void Box\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\The Void Box\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

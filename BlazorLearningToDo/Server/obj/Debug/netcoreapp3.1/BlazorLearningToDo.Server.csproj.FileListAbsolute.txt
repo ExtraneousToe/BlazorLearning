@@ -195,8 +195,6 @@ C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.csprojAssemblyReference.cache
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.AssemblyInfoInputs.cache
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.AssemblyInfo.cs
-C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.csproj.CoreCompileInputs.cache
-C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.RazorAssemblyInfo.cache
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.RazorAssemblyInfo.cs
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.TagHelpers.input.cache
@@ -225,3 +223,6 @@ C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.csproj.CoreCompileInputs.cache
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Server\obj\Debug\netcoreapp3.1\BlazorLearningToDo.Server.MvcApplicationPartsAssemblyInfo.cache

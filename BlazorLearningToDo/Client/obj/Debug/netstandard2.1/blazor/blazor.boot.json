@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BlazorLearningToDo.Client.dll": "sha256-zVs8wLlN3CoA2fe7bGxnpTgzkS8uPzynOgQnS9Rsjf8=",
+      "BlazorLearningToDo.Client.dll": "sha256-SAWJoTY2uf+t\/UDxOCxsfkcBXYdjUammPJs75U1vqfY=",
       "Microsoft.AspNetCore.SignalR.Client.dll": "sha256-NnQQA6GrbTlKzgwFLvOTRn9LYxywIchU8TuasfFQaHE=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-tjbh51aVu1kTNULze+ql74GraZd0WcTaq28VNttAPKA=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
@@ -71,7 +71,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "BlazorLearningToDo.Client.pdb": "sha256-u2wDXvYDCihYauyPNqSTVTtyMxfGqQOh+h3q9Tx2U3M=",
+      "BlazorLearningToDo.Client.pdb": "sha256-8ClU1bakJJSQnk2N17KMWZ86risV8Y8mZtp676dxZFQ=",
       "BlazorLearningToDo.Shared.pdb": "sha256-v7w2ko0abNB7CH5RHWjciF6ze5W1o7CRkorzOo19XW4="
     },
     "runtime": {
