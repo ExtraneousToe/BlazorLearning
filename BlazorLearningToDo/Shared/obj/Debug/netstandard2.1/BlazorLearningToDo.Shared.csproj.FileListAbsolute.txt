@@ -1,0 +1,9 @@
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\bin\Debug\netstandard2.1\BlazorLearningToDo.Shared.deps.json
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\bin\Debug\netstandard2.1\BlazorLearningToDo.Shared.dll
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\bin\Debug\netstandard2.1\BlazorLearningToDo.Shared.pdb
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.csprojAssemblyReference.cache
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.AssemblyInfoInputs.cache
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.AssemblyInfo.cs
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.dll
+C:\Users\The Void Box\Documents\GitHub\BlazorLearning\BlazorLearningToDo\Shared\obj\Debug\netstandard2.1\BlazorLearningToDo.Shared.pdb

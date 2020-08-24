@@ -1,0 +1,110 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@using BlazorLearningToDo.Shared
+@inject NavigationManager NavigationManager
+@implements IDisposable
+
+@if (string.IsNullOrEmpty(LoggedInUser))
+{
+	<form @onsubmit="SignIn">
+		<div class="form-group">
+			<label>
+				User:
+				<input @bind="loggingInUser">
+			</label>
+		</div>
+		<button disabled="@(string.IsNullOrEmpty(loggingInUser))" type="submit">Sign In</button>
+	</form>
+}
+else
+{
+	<form @onsubmit="Send">
+		<label>
+			User: <b>@LoggedInUser</b>
+		</label>
+		<div class="form-group">
+			<label>
+				Message:
+				<input @bind="messageInput" size="50" />
+			</label>
+		</div>
+		<button disabled="@(!IsConnected)" type="submit">Send</button>
+		<button @onclick="SignOut">Sign Out</button>
+	</form>
+}
+
+<hr>
+
+<ul id="messagesList">
+	@foreach (var message in messages)
+	{
+		<li>
+			<b>@message.User:</b> @message.Content
+		</li>
+	}
+</ul>
+
+@code
+{
+	private string LoggedInUser;
+	private string loggingInUser;
+
+	public void SignIn()
+	{
+		LoggedInUser = loggingInUser;
+	}
+	public void SignOut()
+	{
+		LoggedInUser = string.Empty;
+	}
+
+	private HubConnection hubConnection;
+	private List<ChatMessage> messages = new List<ChatMessage>();
+	private string messageInput;
+	private bool hasReceivedServer;
+
+	protected override async Task OnInitializedAsync()
+	{
+		hubConnection = new HubConnectionBuilder()
+			.WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
+			.Build();
+
+		hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+		{
+			messages.Add(new ChatMessage
+			{
+				User = user,
+				Content = message
+			});
+			StateHasChanged();
+		});
+
+		hasReceivedServer = false;
+		hubConnection.On<ChatMessage[]>("ReceiveServerState", stateMessageList =>
+		{
+			if (hasReceivedServer) return;
+			hasReceivedServer = true;
+
+			messages.AddRange(stateMessageList);
+			StateHasChanged();
+		});
+
+		await hubConnection.StartAsync();
+
+		await hubConnection.SendAsync("FetchState");
+	}
+
+	async Task Send()
+	{
+		await hubConnection.SendAsync("SendMessage", LoggedInUser, messageInput);
+		messageInput = string.Empty;
+	}
+
+	public bool IsConnected =>
+		hubConnection.State == HubConnectionState.Connected;
+
+	public void Dispose()
+	{
+		_ = hubConnection.DisposeAsync();
+	}
+}

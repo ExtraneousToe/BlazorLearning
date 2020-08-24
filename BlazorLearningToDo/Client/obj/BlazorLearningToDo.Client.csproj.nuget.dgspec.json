@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Client\\BlazorLearningToDo.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Client\\BlazorLearningToDo.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Client\\BlazorLearningToDo.Client.csproj",
+        "projectName": "BlazorLearningToDo.Client",
+        "projectPath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Client\\BlazorLearningToDo.Client.csproj",
+        "packagesPath": "C:\\Users\\The Void Box\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\The Void Box\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\BlazorLearningToDo.Shared.csproj": {
+                "projectPath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\BlazorLearningToDo.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.Client": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client.Core": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\BlazorLearningToDo.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\BlazorLearningToDo.Shared.csproj",
+        "projectName": "BlazorLearningToDo.Shared",
+        "projectPath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\BlazorLearningToDo.Shared.csproj",
+        "packagesPath": "C:\\Users\\The Void Box\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Void Box\\Documents\\GitHub\\BlazorLearning\\BlazorLearningToDo\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\The Void Box\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
